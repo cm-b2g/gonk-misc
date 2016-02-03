@@ -35,7 +35,7 @@ class GonkSchedulePolicyService :
 public:
     GonkSchedulePolicyService();
     virtual ~GonkSchedulePolicyService();
-    static const char *getServiceName() { return "scheduling_policy"; }
+    static const char *getServiceName() { return "mediautils"; }
 
     virtual status_t dump(int fd, const Vector<String16>& args);
     int requestPriority(int32_t pid, int32_t tid, int32_t prio);
